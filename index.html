@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Weather</title>
+    <link href="style.css" rel="stylesheet" />
+  
+</head>
+
+<!---onload will run our geolocation function to show users lat and lon-->
+<body onload="showGeoLoc()">
+
+    <!----Header for our page------>
+    <h1>How's the weather looking today?</h1>
+
+    <!----Create textboxes for our user input---->
+    <div class="latitude">
+        <h2>Latitude: </h2>
+        <input type="text" placeholder="Enter latitude here" id="latitudeTextbox" />
+    </div>
+
+    <div class="longitude">
+        <h2>Longitude: </h2>
+        <input type="text" placeholder="Enter longitude here" id="longitudeTextbox" />
+    </div>
+
+    <!---Text area for our weather forecast to be displayed in-->
+    <div class="dataBox">
+        <textarea id="forecastData" name="forecastData" value=" " rows="10" cols="65"></textarea>
+    </div>
+
+    <!---Javascript event for a click on our button--->
+    <div class="container">
+      <div class="button">
+          <input onclick="GetAPI()" type="button" class="dataButton" value="Get Forecast!" />
+      </div>
+
+     <div class="geoButton">
+         <input onclick="showGeoLoc()"  type="button" class="geoLocButton" value="Get forecast for current location!" />  
+        </div>
+    </div>
+
+    <script src="weather script.js"></script>
+
+</body>
+</html>

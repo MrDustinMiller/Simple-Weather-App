@@ -1,0 +1,67 @@
+﻿body 
+{
+    text-align: center;
+}
+
+/*change color of our forecast button*/
+.dataButton
+{
+    background-color: orange;
+}
+
+/*align our button in center*/
+.button 
+{
+    display: inline;
+    text-align: center;
+}
+.container 
+{
+
+    text-align: center;
+    display: inline;
+    
+}
+/*change color of our current postion forecast button*/
+.geoLocButton
+{
+    display: inline;
+    background-color: orange;
+}
+
+/*align our button in center*/
+.geoButton 
+{
+    display: inline;
+    padding: 10px;
+}
+
+/*heading for our page*/
+h1 
+{
+    text-align: center;
+}
+
+/*area where our forecast data is displayed*/
+.dataBox 
+{
+    text-align: center;
+    padding: 10px;
+}
+
+/*headings for our lat and lon*/
+.latitude 
+{ 
+    
+    text-align: center;
+    
+}
+
+/*headings for our lat and lon*/
+.longitude 
+{
+    
+    text-align: center;
+    
+}
+

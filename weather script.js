@@ -1,20 +1,3 @@
-//USED AS A CALLBACK FOR THE AJAX REQUEST
-function requestData() {
-    var responseStatusOk = this.status === 200;   //STATUS 200 means OK
-    var responseComplete = this.readyState === 4; //readyState 4 means response is ready
-
-    if (responseStatusOk && responseComplete) {
-        console.log(this.responseText); //debug
-      
-        //PARSE THE RESPONSE
-        let responseData = JSON.parse(this.responseText);
-        
-    }//end if     
-
-}//end function
-
- 
-
 function showGeoLoc() {
 
     if (navigator.geolocation) { //then

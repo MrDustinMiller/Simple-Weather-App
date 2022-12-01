@@ -1,4 +1,4 @@
-<h1 align="center">Check The Weather</h1>
+<h1 align="left">Check The Weather</h1>
 
 <p align="center">- Retrieve the weather based on the latitude and longitude of a given location. The page should prompt the user to allow location services. If accepeted, the latitude and longitude of the users location will populate the textboxes. 
 </p>

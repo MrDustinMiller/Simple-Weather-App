@@ -13,6 +13,8 @@
 
 <img width="476" alt="Screenshot 2022-05-27 144441" src="https://user-images.githubusercontent.com/97045700/170779784-4b2daa31-f07e-4bf1-97d9-fc78c7e90bf7.png">
 
+## Live Demo
+- [Demo](https://mrdustinmiller.github.io/Simple-Weather-App/)
 
 ## Built With
 
